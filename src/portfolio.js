@@ -280,7 +280,7 @@ const achievementSection = {
         footerLink: [
         {
           name: "Ethical Hacking Certification",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-6756c98a-5b53-404d-86bf-d9d2f4d461a0.pdf"
         }
       ]
     },
