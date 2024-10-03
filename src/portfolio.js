@@ -266,38 +266,37 @@ const achievementSection = {
       imageAlt: "Udemy in-Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "Web Developement Certification",
           url: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ca52de80-f0c4-4131-9fec-b930ea2d3e56.pdf"
         },
       ]
     },
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
+    {
+      title: "Ethical Hacking",
+      subtitle:
+        "Completed Certification from Udemy for Ehical Hacking From Scratch",
+        image: require("./assets/images/udemy.png"),
+        imageAlt: "Udemy in-Logo",
+        footerLink: [
+        {
+          name: "Ethical Hacking Certification",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
+    {
+      title: "Machine Learning with Python",
+      subtitle: "Undergoing a Certificate Course from Udemy for Machine Learning with Python",
+      image: require("./assets/images/udemy.png"),
+      imageAlt: "Udemy in-Logo",
+      footerLink: [
+        {
+          name: "Certification :: ongoing", 
+          url: ""
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -380,7 +379,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
