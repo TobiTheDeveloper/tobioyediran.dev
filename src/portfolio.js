@@ -23,10 +23,10 @@ const greeting = {
   username: "Tobi Oyediran",
   title: "Hi There, I'm Tobi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web appliccations with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Developer with a passion for building web applications using JavaScript, React.js, Node.js, and other awesome libraries. Always eager to create impactful and innovative solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -155,7 +155,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
